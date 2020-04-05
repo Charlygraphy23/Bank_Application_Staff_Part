@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="820.0" style="-fx-background-color: #ba000d;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.SplashScreenController">
+   <center>
+      <Circle fx:id="logo" fill="DODGERBLUE" radius="141.0" stroke="WHITE" strokeType="INSIDE" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <HBox alignment="CENTER" prefHeight="55.0" prefWidth="820.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" prefHeight="21.0" prefWidth="273.0" text="© All Rights Received " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </bottom>
+</BorderPane>
